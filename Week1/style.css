@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  color: #1c1c1c;
+  background: #fafaf9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: #2f5d50;
+  border-bottom: 1px solid #244a3f;
+}
+
+.logo {
+  color: white;
+}
+
+nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 24px;
+  background: linear-gradient(135deg, #2f5d50, #4e8d7c);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 24px 60px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #e8f0ee;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* WEATHER PAGE */
+.weather-box {
+  max-width: 400px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 30px 24px;
+  background-color: #e8f0ee;
+  border-radius: 12px;
+}
+
+.weather-box h1 {
+  color: #2f5d50;
+  font-size: 1.6rem;
+}
+
+#searchForm {
+  display: flex;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+#cityInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #c3d6d0;
+  border-radius: 6px;
+}
+
+#searchForm button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2f5d50;
+  color: white;
+  cursor: pointer;
+}
+
+#searchForm button:hover {
+  background-color: #244a3f;
+}
+
+#message {
+  color: #b3261e;
+}
+
+#cityName {
+  color: #2f5d50;
+}
+
+#temp {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2f5d50;
+}
+
+#wind {
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: #6b6b6b;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #6b6b6b;
+}
+
+/* RESPONSIVE 600px --> 1 column */
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

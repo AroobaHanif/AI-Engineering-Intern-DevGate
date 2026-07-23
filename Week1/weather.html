@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumina — Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h2 class="logo">Lumina</h2>
+    <nav>
+      <a href="lumina.html">Home</a>
+      <a href="weather.html">Weather</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="weather-box">
+      <h1>Check the Weather</h1>
+
+      <form id="searchForm">
+        <input type="text" id="cityInput" placeholder="Type a city..." required>
+        <button type="submit">Search</button>
+      </form>
+
+      <p id="message"></p>
+
+      <div id="result" class="hidden">
+        <h2 id="cityName"></h2>
+        <p id="temp"></p>
+        <p id="wind"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lumina</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
