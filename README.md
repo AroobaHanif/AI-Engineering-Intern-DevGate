@@ -1,3 +1,16 @@
+# AI Engineering Intern @ DevGate
+
+This repository contains all weekly tasks and projects completed during the AI Engineering internship at DevGate.
+
+## Structure
+
+Each week's work lives in its own folder:
+
+├── Week1/ → Landing page + Weather app (HTML, CSS, JS fundamentals)
+├── Week2/ → React + Node.js/Express full-stack apps (task manager + e-commerce)
+├── Week3/ → ...
+
+
 ## Week 1 — HTML, CSS & JavaScript Fundamentals
 
 **Project:** Lumina — a responsive landing page + weather app
