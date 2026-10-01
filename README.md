@@ -1,11 +1,11 @@
-````markdown
+````
 # AI Engineering Intern @ DevGate
 
 This repository contains all weekly tasks and projects completed during the AI Engineering internship at DevGate.
 
 ## Repository Structure
 
-```text
+```
 AI-Engineering-Intern-DevGate/
 ├── Week1/
 │   └── Lumina Project
