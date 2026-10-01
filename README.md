@@ -1,4 +1,3 @@
-````
 # AI Engineering Intern @ DevGate
 
 This repository contains all weekly tasks and projects completed during the AI Engineering internship at DevGate.
@@ -8,17 +7,14 @@ This repository contains all weekly tasks and projects completed during the AI E
 ```
 AI-Engineering-Intern-DevGate/
 ├── Week1/
-│   └── Lumina Project
+│   └── Lumina Project (Landing page + Weather app)
 ├── Week2/
-│   ├── Momentumate
-│   └── Pageturn-Ecommerce
+│   ├── Momentumate (Task & Course Progress Tracker)
+│   └── Pageturn-Ecommerce (Role-Based Book E-Commerce)
 ├── Week3/
-│   └── MailMind
-├── Week4+5+6/
-│   ├── AI-Chat-App/
-│   └── AI-Chat-Frontend/
+│   └── MailMind (AI-Powered Email Template Generator)
 └── README.md
-````
+```
 
 ---
 
