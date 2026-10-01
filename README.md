@@ -14,6 +14,10 @@ AI-Engineering-Intern-DevGate/
 ├── Week3/
 │   └── MailMind (AI-Powered Email Template Generator)
 └── README.md
+├── Week4+5+6/
+│   ├── AI-Chat-App/
+│   └── AI-Chat-Frontend/
+└── README.md
 ```
 
 ---
